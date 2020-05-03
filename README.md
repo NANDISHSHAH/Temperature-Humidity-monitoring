@@ -1,0 +1,6 @@
+Sometimes, after rains, the air feels moist. The water seems to have suspended in the air. However, in certain AC’s you click some buttons and the atmosphere brightens up. How and why does it all happen? Moisture forms up in the air, resulting in humidity. However, the humidity sensor in your AC picks it up and cleans it up for you. Isn’t that wonderful? Let’s take a look at how it does that.  A humidity sensor (or hygrometer) senses, measures and reports both moisture and air temperature. The ratio of moisture in the air to the highest amount of moisture at a particular air temperature is called relative humidity. 
+Relative humidity becomes an important factor when looking for comfort.
+I have used-:
+The DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed). Its fairly simple to use, but requires careful timing to grab data. The only real downside of this sensor is you can only get new data from it once every 2 seconds, so when using our library, sensor readings can be up to 2 seconds old.
+
+Compared to the DHT22, this sensor is less precise, less accurate and works in a smaller range of temperature/humidity, but its smaller and less expensive
